@@ -27,7 +27,7 @@ app.get("/api/v1/form", (req, res) => {
 // Connecting to database
 connectDatabase()
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Server is running")
 })
 
