@@ -22,5 +22,5 @@ const form = require('./routes/formRoute')
 
 app.use("/api/v1", form)
 
-app.get("/")
+//app.get("/")
 module.exports = app
