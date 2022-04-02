@@ -3,6 +3,6 @@ const { createForm } = require('../controllers/regController')
 
 const router = express.Router()
 
-router.route("/form").post(createForm)
+router.route("/").post(createForm)
 
 module.exports = router

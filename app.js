@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended:false}))
 //Route imports
 const form = require('./routes/formRoute')
 
-app.use("/api/v1", form)
+app.use("/", form)
 
 //app.get("/")
 module.exports = app

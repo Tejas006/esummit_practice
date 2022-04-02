@@ -17,7 +17,7 @@ if(process.env.NODE_ENV!=="PRODUCTION"){
     require("dotenv").config({path:"config/config.env"})
 }
 
-app.get("/api/v1/form", (req, res) => {
+app.get("/", (req, res) => {
     res.render("index")
 })
 
